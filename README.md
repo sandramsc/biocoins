@@ -103,4 +103,4 @@ Visit http://localhost:5500 on a Browser to View the App
 
 ## License
 
-[![GitLicense](https://gitlicense.com/badge/sajutsmile/sajustsmile.github.io)](https://github.com/agelesspartners/biocoins/blob/main/LICENSE)
+[![GitLicense](https://gitlicense.com/badge/sajustsmile/sajustsmile.github.io)](https://github.com/agelesspartners/biocoins/blob/main/LICENSE)
