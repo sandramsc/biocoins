@@ -103,4 +103,4 @@ Visit http://localhost:5500 on a Browser to View the App
 
 ## License
 
-[![GitLicense](https://gitlicense.com/badge/sajustsmile/sajustsmile.github.io)](https://github.com/agelesspartners/biocoins/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/agelesspartners/biocoins/blob/main/LICENSE)
