@@ -32,10 +32,10 @@ a web based tool that enables users to ..................xyz
 
 A Short Video Detailing the Features Implemented in this Application
 
-View the Demo on YouTube: *LINK*
-
+View the Demo on YouTube: _LINK_
 
 ## Screenshots
+
 [INSERT SCREENSHOT]
 
 ## Technology Stack
@@ -46,9 +46,8 @@ View the Demo on YouTube: *LINK*
 | CSS3       | Cascading Style Sheets     |
 | JavaScript | Object-oriented language   |
 | TypeScript | Object-oriented language   |
-| React.js    | JavaScript library   |
-| Docker    | Containerization platform   |
-
+| React.js   | JavaScript library         |
+| Docker     | Containerization platform  |
 
 ## Features
 
@@ -65,12 +64,13 @@ View the Demo on YouTube: *LINK*
 To test the application run the following commands on your terminal:
 
 **Running the application locally:**
+
 ```
 clone the repository
 ```
-- Website: To start it,  run npm start on command line inside dashboard folder......
-- API: To start it, run node index.js on command line inside authentication folder....
 
+- Website: To start it, run npm start on command line inside dashboard folder......
+- API: To start it, run node index.js on command line inside authentication folder....
 
 **On docker:**
 
@@ -90,17 +90,16 @@ Visit http://localhost:5500 on a Browser to View the App
 
 ## Collaborators
 
-| Name              | Link ↘️                        |
-| ----------------- | ------------------------------ |
-| Sandra Ashipala   | https://github.com/sajustsmile |
-| Jason Mercurio | https://github.com/agelesspartners     |
-| Triyaksh Mathur    | https://github.com/     |
-| Ketan Bansal       | https://github.com/   |
-| Stephen Price       | https://github.com/   |
-| Aditiy Iyer       | https://github.com/   |
-| Chris Lovejoy       | https://github.com/   |
-
+| Name            | Link ↘️                            |
+| --------------- | ---------------------------------- |
+| Sandra Ashipala | https://github.com/sajustsmile     |
+| Jason Mercurio  | https://github.com/agelesspartners |
+| Triyaksh Mathur | https://github.com/                |
+| Ketan Bansal    | https://github.com/                |
+| Stephen Price   | https://github.com/                |
+| Aditiy Iyer     | https://github.com/                |
+| Chris Lovejoy   | https://github.com/                |
 
 ## License
 
-[![GitLicense](https://gitlicense.com/badge/sajutsmile/sajustsmile.github.io)](https://github.com/agelesspartners/biocoins/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/agelesspartners/biocoins/blob/main/LICENSE)
