@@ -69,10 +69,9 @@ To test the application run the following commands on your terminal:
 git clone https://github.com/agelesspartners/biocoins.git
 ```
 
-install dependencies via NPM or yarn: npm i OR yarn
-``
+- install dependencies via NPM or yarn: npm i OR yarn
 
-- Website: To start it, run npm start OR yarn start
+- website: To start it, run npm start OR yarn start
 
 **Quick start docker:**
 
@@ -89,7 +88,7 @@ docker-compose build # local set up
 docker-compose up    # start the app
 ```
 
-- Website: User Interface (UI) start on port 3000 & expecting an API server on port 5000
+- website: User Interface (UI) start on port 3000 & expecting an API server on port 5000
 
 ## Collaborators
 
