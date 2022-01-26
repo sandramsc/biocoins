@@ -39,14 +39,21 @@ View the Demo on YouTube: _LINK_
 
 ## Technology Stack
 
-| Technology | Description                |
-| ---------- | -------------------------- |
-| HTML5      | Hyper Text Markup Language |
-| CSS3       | Cascading Style Sheets     |
-| JavaScript | Object-oriented language   |
-| TypeScript | Object-oriented language   |
-| React.js   | JavaScript library         |
-| Docker     | Containerization platform  |
+| Technology       | Description                |
+| ---------------- | -------------------------- |
+| HTML5            | Hyper Text Markup Language |
+| CSS3             | Cascading Style Sheets     |
+| JavaScript       | Object-oriented language   |
+| TypeScript       | Object-oriented language   |
+| React.js         | JavaScript library         |
+| Docker           | Containerization platform  |
+| Redux            |                            |
+| Redux-persist    |                            |
+| Typescript       |                            |
+| SQLite           |                            |
+| TypeORM          |                            |
+| Joy (validation) |                            |
+| Passport library |                            |
 
 ## Features
 
@@ -56,7 +63,7 @@ View the Demo on YouTube: _LINK_
 
 3. C
 
-4. D
+4. Authentication: JWT Login/Register/Logout
 
 ## Running
 
