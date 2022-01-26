@@ -66,27 +66,30 @@ To test the application run the following commands on your terminal:
 **Running the application locally:**
 
 ```
-clone the repository
+git clone https://github.com/agelesspartners/biocoins.git
 ```
 
-- Website: To start it, run npm start on command line inside dashboard folder......
-- API: To start it, run node index.js on command line inside authentication folder....
+install dependencies via NPM or yarn: npm i OR yarn
+``
 
-**On docker:**
+- Website: To start it, run npm start OR yarn start
 
-```
-docker-compose up --build
-```
-
-**Pull image from docker hub:**
+**Quick start docker:**
 
 ```
-docker pull sajustsmile/xyz
+git clone https://github.com/agelesspartners/biocoins.git
+cd biocoins
 ```
 
-## Usage
+**Start the app in docker:**
 
-Visit http://localhost:5500 on a Browser to View the App
+```
+docker-compose pull  # download dependencies
+docker-compose build # local set up
+docker-compose up    # start the app
+```
+
+- Website: User Interface (UI) start on port 3000 & expecting an API server on port 5000
 
 ## Collaborators
 
