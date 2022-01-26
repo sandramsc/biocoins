@@ -69,9 +69,9 @@ To test the application run the following commands on your terminal:
 git clone https://github.com/agelesspartners/biocoins.git
 ```
 
-- Install dependencies via NPM or yarn: npm i OR yarn
+- Install dependencies via NPM or yarn: _npm i_ OR _yarn_
 
-- Website: To start it, run npm start OR yarn start
+- Website: To start it, run _npm start_ OR _yarn start_
 
 **Quick start docker:**
 
