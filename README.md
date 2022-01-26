@@ -21,7 +21,6 @@ a web based tool that enables users to ..................xyz
 - [Technology Stack](#technology-stack)
 - [Features](#features)
 - [Running](#running)
-- [Usage](#usage)
 - [Collaborators](#collaborators)
 - [References](#references)
 - [License](#license)
