@@ -1,9 +1,4 @@
 import bcrypt from 'bcrypt';
-/*
-
-Copyright (c) 2019 - present AppSeed.us
-
-*/
 import express from 'express';
 import Joi from 'joi';
 import jwt from 'jsonwebtoken';

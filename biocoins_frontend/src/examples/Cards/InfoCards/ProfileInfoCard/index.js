@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // react-routers components
 import { Link } from "react-router-dom";
 
@@ -30,13 +15,11 @@ import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 
 // Soft UI Dashboard React base styles
-import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 
 function ProfileInfoCard({ title, description, info, social, action }) {
   const labels = [];
   const values = [];
-  const { socialMediaColors } = colors;
   const { size } = typography;
 
   // Convert this form `objectKey` of the object key in to this `object key`
@@ -75,7 +58,6 @@ function ProfileInfoCard({ title, description, info, social, action }) {
       target="_blank"
       rel="noreferrer"
       fontSize={size.lg}
-      color={socialMediaColors[color].main}
       pr={1}
       pl={0.5}
       mt={-0.1}
