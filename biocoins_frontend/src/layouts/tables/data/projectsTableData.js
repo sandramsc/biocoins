@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-// @mui material components
-import Icon from "@mui/material/Icon";
 
 // Soft UI Dashboard React components
 import SuiBox from "components/SuiBox";
@@ -12,8 +10,6 @@ import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
 import logoInvesion from "assets/images/small-logos/logo-invision.svg";
 import logoJira from "assets/images/small-logos/logo-jira.svg";
 import logoSlack from "assets/images/small-logos/logo-slack.svg";
-import logoWebDev from "assets/images/small-logos/logo-webdev.svg";
-import logoXD from "assets/images/small-logos/logo-xd.svg";
 
 function Completion({ value, color }) {
   return (
@@ -28,111 +24,70 @@ function Completion({ value, color }) {
   );
 }
 
-const action = (
-  <Icon className="font-bold text-secondary cursor-pointer" fontSize="small">
-    more_vert
-  </Icon>
-);
-
 export default {
   columns: [
     { name: "project", align: "left" },
-    { name: "budget", align: "left" },
+    { name: "funding", align: "left" },
     { name: "status", align: "left" },
     { name: "completion", align: "center" },
-    { name: "action", align: "center" },
   ],
 
   rows: [
     {
-      project: [logoSpotify, "Spotift"],
-      budget: (
+      project: [logoSpotify, "VitaDao"],
+      funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
-          $2,500
+          $8 million
         </SuiTypography>
       ),
       status: (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          working
+          done
         </SuiTypography>
       ),
       completion: <Completion value={60} color="info" />,
-      action,
     },
     {
-      project: [logoInvesion, "Invesion"],
-      budget: (
+      project: [logoInvesion, "Molecule"],
+      funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
-          $5,000
+          $12.2 million
         </SuiTypography>
       ),
       status: (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          done
+          negotiating
         </SuiTypography>
       ),
-      completion: <Completion value={100} color="success" />,
-      action,
+      completion: <Completion value={100} color="error" />,
     },
     {
-      project: [logoJira, "Jira"],
-      budget: (
+      project: [logoJira, "JHuman Longevity Inc"],
+      funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
-          $3,400
+          $3.2 million
         </SuiTypography>
       ),
       status: (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          canceled
+          ongoing
         </SuiTypography>
       ),
-      completion: <Completion value={30} color="error" />,
-      action,
+      completion: <Completion value={30} color="success" />,
     },
     {
-      project: [logoSlack, "Slack"],
-      budget: (
+      project: [logoSlack, "Calico"],
+      funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
-          $1,400
+          $7 million
         </SuiTypography>
       ),
       status: (
         <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          canceled
+          ongoing
         </SuiTypography>
       ),
-      completion: <Completion value={0} color="error" />,
-      action,
-    },
-    {
-      project: [logoWebDev, "Webdev"],
-      budget: (
-        <SuiTypography variant="button" textColor="text" fontWeight="medium">
-          $14,000
-        </SuiTypography>
-      ),
-      status: (
-        <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          working
-        </SuiTypography>
-      ),
-      completion: <Completion value={80} color="info" />,
-      action,
-    },
-    {
-      project: [logoXD, "Adobe XD"],
-      budget: (
-        <SuiTypography variant="button" textColor="text" fontWeight="medium">
-          $2,300
-        </SuiTypography>
-      ),
-      status: (
-        <SuiTypography variant="caption" textColor="text" fontWeight="medium">
-          done
-        </SuiTypography>
-      ),
-      completion: <Completion value={100} color="success" />,
-      action,
+      completion: <Completion value={0} color="success" />,
     },
   ],
 };

@@ -1,14 +1,18 @@
 /* eslint-disable react/prop-types */
-// Soft UI Dashboard React components
+// BioCoins Dashboard React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiAvatar from "components/SuiAvatar";
 import SuiBadge from "components/SuiBadge";
 
 // Images
-import team2 from "assets/images/team-2.jpg";
-import team3 from "assets/images/team-3.jpg";
-import team4 from "assets/images/team-4.jpg";
+import name1 from "assets/images/name-1.png";
+import name2 from "assets/images/name-2.png";
+import name3 from "assets/images/name-3.png";
+import name4 from "assets/images/name-4.png";
+import name5 from "assets/images/name-5.png";
+import name6 from "assets/images/name-6.png";
+import name7 from "assets/images/name-7.png";
 
 function Author({ image, name, email }) {
   return (
@@ -43,150 +47,59 @@ function Function({ job, org }) {
 
 export default {
   columns: [
-    { name: "author", align: "left" },
+    { name: "BioCoins Team", align: "left" },
     { name: "function", align: "left" },
     { name: "status", align: "center" },
-    { name: "employed", align: "center" },
-    { name: "action", align: "center" },
   ],
 
   rows: [
     {
-      author: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
-      function: <Function job="Manager" org="Organization" />,
+      author: <Author image={name1} name="Sandra Ashipala" email="sandra@biocoins.com" />,
+      function: <Function job="Computer Scientist" org="Developer" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="online" color="success" size="extra-small" />
       ),
-      employed: (
-        <SuiTypography variant="caption" textColor="secondary" fontWeight="medium">
-          23/04/18
-        </SuiTypography>
-      ),
-      action: (
-        <SuiTypography
-          component="a"
-          href="#"
-          variant="caption"
-          textColor="secondary"
-          fontWeight="medium"
-        >
-          Edit
-        </SuiTypography>
-      ),
     },
     {
-      author: <Author image={team3} name="Alexa Liras" email="alexa@creative-tim.com" />,
-      function: <Function job="Programator" org="Developer" />,
+      author: <Author image={name2} name="Jason Mercurio" email="jason@biocoins.com" />,
+      function: <Function job="Quantitative Analyst II" org="Analyst" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />
       ),
-      employed: (
-        <SuiTypography variant="caption" textColor="secondary" fontWeight="medium">
-          11/01/19
-        </SuiTypography>
-      ),
-      action: (
-        <SuiTypography
-          component="a"
-          href="#"
-          variant="caption"
-          textColor="secondary"
-          fontWeight="medium"
-        >
-          Edit
-        </SuiTypography>
-      ),
     },
     {
-      author: <Author image={team4} name="Laurent Perrier" email="laurent@creative-tim.com" />,
-      function: <Function job="Executive" org="Projects" />,
+      author: <Author image={name3} name="Triyaksh Mathur" email="triyaksh@biocoins.com" />,
+      function: <Function job="XR intern" org="Mixed Reality" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="online" color="success" size="extra-small" />
       ),
-      employed: (
-        <SuiTypography variant="caption" textColor="secondary" fontWeight="medium">
-          19/09/17
-        </SuiTypography>
-      ),
-      action: (
-        <SuiTypography
-          component="a"
-          href="#"
-          variant="caption"
-          textColor="secondary"
-          fontWeight="medium"
-        >
-          Edit
-        </SuiTypography>
-      ),
     },
     {
-      author: <Author image={team3} name="Michael Levi" email="michael@creative-tim.com" />,
-      function: <Function job="Programator" org="Developer" />,
+      author: <Author image={name4} name="Ketan Bansal" email="ketan@biocoins.com" />,
+      function: <Function job="Director of Machine Learing" org="Machine Learing" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="online" color="success" size="extra-small" />
       ),
-      employed: (
-        <SuiTypography variant="caption" textColor="secondary" fontWeight="medium">
-          24/12/08
-        </SuiTypography>
-      ),
-      action: (
-        <SuiTypography
-          component="a"
-          href="#"
-          variant="caption"
-          textColor="secondary"
-          fontWeight="medium"
-        >
-          Edit
-        </SuiTypography>
-      ),
     },
     {
-      author: <Author image={team2} name="Richard Gran" email="richard@creative-tim.com" />,
-      function: <Function job="Manager" org="Executive" />,
+      author: <Author image={name5} name="Stephen Price" email="stephen@biocoins.com" />,
+      function: <Function job="Chief Data Officer" org="Data Science" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />
       ),
-      employed: (
-        <SuiTypography variant="caption" textColor="secondary" fontWeight="medium">
-          04/10/21
-        </SuiTypography>
-      ),
-      action: (
-        <SuiTypography
-          component="a"
-          href="#"
-          variant="caption"
-          textColor="secondary"
-          fontWeight="medium"
-        >
-          Edit
-        </SuiTypography>
-      ),
     },
     {
-      author: <Author image={team4} name="Miriam Eric" email="miriam@creative-tim.com" />,
-      function: <Function job="Programtor" org="Developer" />,
+      author: <Author image={name6} name="Aditiy Iyer" email="aditiy@biocoins.com" />,
+      function: <Function job="Biomedical Engineering student" org="Biomedical Engineering" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />
       ),
-      employed: (
-        <SuiTypography variant="caption" textColor="secondary" fontWeight="medium">
-          14/09/20
-        </SuiTypography>
-      ),
-      action: (
-        <SuiTypography
-          component="a"
-          href="#"
-          variant="caption"
-          textColor="secondary"
-          fontWeight="medium"
-        >
-          Edit
-        </SuiTypography>
+    },
+    {
+      author: <Author image={name7} name="Chris Lovejoy" email="chris@biocoins.com" />,
+      function: <Function job="NHS Medical Doctor" org="Medical Doctor" />,
+      status: (
+        <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />
       ),
     },
   ],

@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Tooltip from "@mui/material/Tooltip";
@@ -34,8 +19,6 @@ import BaseLayout from "layouts/virtual-reality/components/BaseLayout";
 import TodoList from "layouts/virtual-reality/components/TodoList";
 import TodoCard from "layouts/virtual-reality/components/TodoCard";
 import Emails from "layouts/virtual-reality/components/Emails";
-import MediaPlayer from "layouts/virtual-reality/components/MediaPlayer";
-import Messages from "layouts/virtual-reality/components/Messages";
 
 // Custom styles for the VRDefault
 import styles from "layouts/virtual-reality/styles";
@@ -131,12 +114,6 @@ function VirtualReality() {
                     <TodoCard />
                   </SuiBox>
                   <Emails />
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <SuiBox mb={3}>
-                    <MediaPlayer />
-                  </SuiBox>
-                  <Messages />
                 </Grid>
               </Grid>
             </SuiBox>
