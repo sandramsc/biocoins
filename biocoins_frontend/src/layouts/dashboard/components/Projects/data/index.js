@@ -11,12 +11,12 @@ import SuiProgress from "components/SuiProgress";
 import styles from "layouts/dashboard/components/Projects/styles";
 
 // Images
-import logoXD from "assets/images/small-logos/logo-xd.svg";
-import logoAtlassian from "assets/images/small-logos/logo-atlassian.svg";
-import logoSlack from "assets/images/small-logos/logo-slack.svg";
-import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
-import logoJira from "assets/images/small-logos/logo-jira.svg";
-import logoInvesion from "assets/images/small-logos/logo-invision.svg";
+import logoXD from "assets/images/small-logos/logo-xd.png";
+import logoAtlassian from "assets/images/small-logos/logo-atlassian.png";
+import logoSlack from "assets/images/small-logos/logo-slack.png";
+import logoSpotify from "assets/images/small-logos/logo-spotify.jpg";
+import logoJira from "assets/images/small-logos/logo-jira.jpg";
+import logoInvesion from "assets/images/small-logos/logo-invision.jpg";
 import team1 from "assets/images/team-1.jpg";
 import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
@@ -34,15 +34,15 @@ export default function data() {
 
   return {
     columns: [
-      { name: "companies", align: "left" },
+      { name: "researcher", align: "left" },
       { name: "members", align: "left" },
-      { name: "budget", align: "center" },
-      { name: "completion", align: "center" },
+      { name: "funding", align: "center" },
+      { name: "clinical_stage", align: "center" },
     ],
 
     rows: [
       {
-        companies: [logoXD, "Soft UI XD Version"],
+        researcher: [logoXD, "Technical University Berlin"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -53,19 +53,19 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        funding: (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $14,000
           </SuiTypography>
         ),
-        completion: (
+        clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={60} color="info" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoAtlassian, "Add Progress Track"],
+        researcher: [logoAtlassian, "Harvard T.H. Chan School of Public Health"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -74,19 +74,19 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        funding: (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $3,000
           </SuiTypography>
         ),
-        completion: (
+        clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={10} color="info" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoSlack, "Fix Platform Errors"],
+        researcher: [logoSlack, "Ageless Partners"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -95,19 +95,19 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        funding: (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             Not set
           </SuiTypography>
         ),
-        completion: (
+        clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={100} color="success" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoSpotify, "Launch our Mobile App"],
+        researcher: [logoSpotify, "MIT School of Bioengineering Sciences"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -118,37 +118,37 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        funding: (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $20,500
           </SuiTypography>
         ),
-        completion: (
+        clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={100} color="success" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoJira, "Add the New Pricing Page"],
+        researcher: [logoJira, "Tsinghua University"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([[team4, "Jessica Doe"]])}
           </SuiBox>
         ),
-        budget: (
+        funding: (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $500
           </SuiTypography>
         ),
-        completion: (
+        clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={25} color="info" gradient />
           </SuiBox>
         ),
       },
       {
-        companies: [logoInvesion, "Redesign New Online Shop"],
+        researcher: [logoInvesion, "Carnegie Mellon University School of Computer Science"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -157,12 +157,12 @@ export default function data() {
             ])}
           </SuiBox>
         ),
-        budget: (
+        funding: (
           <SuiTypography variant="caption" textColor="text" fontWeight="medium">
             $2,000
           </SuiTypography>
         ),
-        completion: (
+        clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
             <SuiProgress value={40} color="info" gradient />
           </SuiBox>

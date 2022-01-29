@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { useState } from "react";
 
 // @mui material components
@@ -73,7 +58,7 @@ function Projects() {
           <SuiBox display="flex" alignItems="center" lineHeight={0}>
             <Icon className="font-bold text-info">done</Icon>
             <SuiTypography variant="button" fontWeight="regular" textColor="text">
-              &nbsp;<strong>30 done</strong> this month
+              &nbsp;<strong>30 reviewed</strong> this month
             </SuiTypography>
           </SuiBox>
         </SuiBox>

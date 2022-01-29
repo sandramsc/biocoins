@@ -1,9 +1,7 @@
 {
-    "name": "api-server-nodejs",
+    "name": "biocoins_backend",
     "version": "1.0.0",
     "description": "RESTful back-end for Node.js and Express.js",
-    "license": "Commercial",
-    "author": "AppSeed.us",
     "main": "src/index",
     "scripts": {
         "start": "pm2 start production.config.json",

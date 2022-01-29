@@ -33,13 +33,13 @@ function WorkWithTheRockets() {
         <SuiBox customClass={classes.workWithTheRockets_content}>
           <SuiBox mb={3} pt={1}>
             <SuiTypography variant="h5" textColor="white" fontWeight="bold">
-              Work with the rockets
+              Work with the BioCoins
             </SuiTypography>
           </SuiBox>
           <SuiBox mb={2}>
             <SuiTypography variant="body2" textColor="white">
-              Wealth creation is an evolutionarily recent positive-sum game. It is all about who
-              take the opportunity first.
+              Reaching the goal of longevity therapeutics has never been faster. Set up all a trial
+              on BioCoins and focus on delivering your research solution and less on funding.
             </SuiTypography>
           </SuiBox>
           <SuiTypography
