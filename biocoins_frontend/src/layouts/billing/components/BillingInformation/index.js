@@ -13,7 +13,7 @@ function BillingInformation() {
     <Card id="delete-account">
       <SuiBox pt={3} px={2}>
         <SuiTypography variant="h6" fontWeight="medium">
-          Billing Information
+          Wallet Information
         </SuiTypography>
       </SuiBox>
       <SuiBox pt={1} pb={2} px={2}>

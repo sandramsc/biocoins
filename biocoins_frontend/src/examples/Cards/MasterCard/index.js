@@ -50,7 +50,7 @@ function MasterCard({ color, number, holder, expires }) {
           <SuiBox display="flex" alignItems="center">
             <SuiBox mr={3}>
               <SuiTypography variant="button" textColor="white" fontWeight="regular" opacity={0.8}>
-                Card Holder
+                Token Holder
               </SuiTypography>
               <SuiTypography
                 variant="h6"

@@ -42,8 +42,8 @@ function Billing() {
                   <DefaultInfoCard
                     icon="paypal"
                     title="paypal"
-                    description="Freelance Payment"
-                    value="$455.00"
+                    description="BioCoin Project investment"
+                    value="$10 000.00"
                   />
                 </Grid>
                 <Grid item xs={12}>

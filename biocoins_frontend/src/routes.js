@@ -40,7 +40,7 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Billing",
+    name: "BioCoin Wallet",
     key: "billing",
     route: "/billing",
     icon: <CreditCard size="12px" />,
