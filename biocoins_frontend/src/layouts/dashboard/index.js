@@ -39,7 +39,7 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "today's money" }}
+                title={{ text: "today's tokens" }}
                 count="$53,000"
                 percentage={{ color: "success", text: "+55%" }}
                 icon={{ color: "info", component: "paid" }}
@@ -48,7 +48,7 @@ function Dashboard() {
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
                 title={{ text: "today's users" }}
-                count="2,300"
+                count="300"
                 percentage={{ color: "success", text: "+3%" }}
                 icon={{ color: "info", component: "public" }}
               />
@@ -64,7 +64,7 @@ function Dashboard() {
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
                 title={{ text: "sales" }}
-                count="$103,430"
+                count="$3 000 578"
                 percentage={{ color: "success", text: "+5%" }}
                 icon={{
                   color: "info",
@@ -100,7 +100,7 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} lg={7}>
               <GradientLineChart
-                title="Sales Overview"
+                title="Clinical Trials & IP Royalties Overview"
                 description={
                   <SuiBox display="flex" alignItems="center">
                     <SuiBox fontSize={size.lg} color="success" mb={0.3} mr={0.5} lineHeight={0}>
@@ -109,7 +109,7 @@ function Dashboard() {
                     <SuiTypography variant="button" textColor="text" fontWeight="medium">
                       4% more{" "}
                       <SuiTypography variant="button" textColor="text" fontWeight="regular">
-                        in 2021
+                        in 2022
                       </SuiTypography>
                     </SuiTypography>
                   </SuiBox>
