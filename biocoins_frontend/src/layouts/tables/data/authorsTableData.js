@@ -1,18 +1,18 @@
 /* eslint-disable react/prop-types */
-// BioCoins Dashboard React components
+// Soft UI Dashboard React components
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiAvatar from "components/SuiAvatar";
 import SuiBadge from "components/SuiBadge";
 
 // Images
-import name1 from "assets/images/name-1.png";
-import name2 from "assets/images/name-2.png";
-import name3 from "assets/images/name-3.png";
-import name4 from "assets/images/name-4.png";
-import name5 from "assets/images/name-5.png";
-import name6 from "assets/images/name-6.png";
-import name7 from "assets/images/name-7.png";
+import team6 from "assets/images/team-6.jpg";
+import team7 from "assets/images/team-7.jpg";
+import team8 from "assets/images/team-8.jpg";
+import team9 from "assets/images/team-9.jpg";
+import team10 from "assets/images/team-10.jpg";
+import team11 from "assets/images/team-11.jpg";
+import team12 from "assets/images/team-12.jpg";
 
 function Author({ image, name, email }) {
   return (
@@ -47,56 +47,56 @@ function Function({ job, org }) {
 
 export default {
   columns: [
-    { name: "BioCoins Team", align: "left" },
+    { name: "team", align: "left" },
     { name: "function", align: "left" },
     { name: "status", align: "center" },
   ],
 
   rows: [
     {
-      author: <Author image={name1} name="Sandra Ashipala" email="sandra@biocoins.com" />,
+      team: <Author image={team6} name="Sandra Ashipala" email="sandra@biocoins.com" />,
       function: <Function job="Computer Scientist" org="Developer" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="online" color="success" size="extra-small" />
       ),
     },
     {
-      author: <Author image={name2} name="Jason Mercurio" email="jason@biocoins.com" />,
+      team: <Author image={team7} name="Jason Mercurio" email="jason@biocoins.com" />,
       function: <Function job="Quantitative Analyst II" org="Analyst" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />
       ),
     },
     {
-      author: <Author image={name3} name="Triyaksh Mathur" email="triyaksh@biocoins.com" />,
+      team: <Author image={team8} name="Triyaksh Mathur" email="triyaksh@biocoins.com" />,
       function: <Function job="XR intern" org="Mixed Reality" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="online" color="success" size="extra-small" />
       ),
     },
     {
-      author: <Author image={name4} name="Ketan Bansal" email="ketan@biocoins.com" />,
+      team: <Author image={team9} name="Ketan Bansal" email="ketan@biocoins.com" />,
       function: <Function job="Director of Machine Learing" org="Machine Learing" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="online" color="success" size="extra-small" />
       ),
     },
     {
-      author: <Author image={name5} name="Stephen Price" email="stephen@biocoins.com" />,
+      team: <Author image={team10} name="Stephen Price" email="stephen@biocoins.com" />,
       function: <Function job="Chief Data Officer" org="Data Science" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />
       ),
     },
     {
-      author: <Author image={name6} name="Aditiy Iyer" email="aditiy@biocoins.com" />,
+      team: <Author image={team11} name="Aditiy Iyer" email="aditiy@biocoins.com" />,
       function: <Function job="Biomedical Engineering student" org="Biomedical Engineering" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />
       ),
     },
     {
-      author: <Author image={name7} name="Chris Lovejoy" email="chris@biocoins.com" />,
+      team: <Author image={team12} name="Chris Lovejoy" email="chris@biocoins.com" />,
       function: <Function job="NHS Medical Doctor" org="Medical Doctor" />,
       status: (
         <SuiBadge variant="gradient" badgeContent="offline" color="secondary" size="extra-small" />

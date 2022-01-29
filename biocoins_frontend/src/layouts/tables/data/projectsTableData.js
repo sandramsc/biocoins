@@ -59,7 +59,7 @@ export default {
           negotiating
         </SuiTypography>
       ),
-      completion: <Completion value={100} color="error" />,
+      completion: <Completion value={5} color="error" />,
     },
     {
       project: [logoJira, "JHuman Longevity Inc"],
@@ -87,7 +87,7 @@ export default {
           ongoing
         </SuiTypography>
       ),
-      completion: <Completion value={0} color="success" />,
+      completion: <Completion value={88} color="success" />,
     },
   ],
 };
