@@ -34,7 +34,7 @@ function SidenavCard() {
           </SuiTypography>
           <SuiBox mb={1.5} mt={-1}>
             <SuiTypography variant="caption" textColor="white" fontWeight="medium">
-              Access Product Page
+              Contact Support
             </SuiTypography>
           </SuiBox>
           <SuiButton

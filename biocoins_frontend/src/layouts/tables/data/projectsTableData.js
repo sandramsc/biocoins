@@ -8,8 +8,8 @@ import SuiProgress from "components/SuiProgress";
 // Images
 import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
 import logoInvesion from "assets/images/small-logos/logo-invision.svg";
-import logoJira from "assets/images/small-logos/logo-jira.svg";
-import logoSlack from "assets/images/small-logos/logo-slack.svg";
+import logoJira from "assets/images/small-logos/logo-jiraa.jpg";
+import logoSlack from "assets/images/small-logos/logo-slack.jpg";
 
 function Completion({ value, color }) {
   return (
@@ -26,7 +26,7 @@ function Completion({ value, color }) {
 
 export default {
   columns: [
-    { name: "project", align: "left" },
+    { name: "investor", align: "left" },
     { name: "funding", align: "left" },
     { name: "status", align: "left" },
     { name: "completion", align: "center" },
@@ -34,7 +34,7 @@ export default {
 
   rows: [
     {
-      project: [logoSpotify, "VitaDao"],
+      investor: [logoSpotify, "VitaDao"],
       funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $8 million
@@ -48,7 +48,7 @@ export default {
       completion: <Completion value={60} color="info" />,
     },
     {
-      project: [logoInvesion, "Molecule"],
+      investor: [logoInvesion, "Molecule"],
       funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $12.2 million
@@ -62,7 +62,7 @@ export default {
       completion: <Completion value={5} color="error" />,
     },
     {
-      project: [logoJira, "JHuman Longevity Inc"],
+      investor: [logoJira, "Peter Thiel’s Founders Fund"],
       funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $3.2 million
@@ -76,7 +76,7 @@ export default {
       completion: <Completion value={30} color="success" />,
     },
     {
-      project: [logoSlack, "Calico"],
+      investor: [logoSlack, "Calico Life Sciences LLC"],
       funding: (
         <SuiTypography variant="button" textColor="text" fontWeight="medium">
           $7 million
