@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-material-ui
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
@@ -20,7 +5,6 @@ import Card from "@mui/material/Card";
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
 // Soft UI Dashboard React components
 import SuiBox from "components/SuiBox";
@@ -62,28 +46,23 @@ function Overview() {
           <Grid item xs={12} md={6} xl={4}>
             <ProfileInfoCard
               title="profile information"
-              description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+              description="What if therapeutics to slow down the aging process and prevent age-related disease already existed? Recently, in an unprecedented effort, a large-scale study employing advanced machine learning methods analyzed medical records from over 4 million individuals in the European Health Sytem. Hi, I'm Alex a Professor at the MIT School of Bioengineering Sciences, actively contributing to the community of longevity therapeutics through research."
               info={{
-                fullName: "Alec M. Thompson",
+                fullName: "Alex M. Thompson",
                 mobile: "(44) 123 1234 123",
-                email: "alecthompson@mail.com",
+                email: "alexthompson@mail.com",
                 location: "USA",
               }}
               social={[
                 {
-                  link: "https://www.facebook.com/CreativeTim/",
+                  link: "https://github.com/agelesspartners/biocoins",
                   icon: <FacebookIcon />,
                   color: "facebook",
                 },
                 {
-                  link: "https://twitter.com/creativetim",
+                  link: "https://github.com/agelesspartners/biocoins",
                   icon: <TwitterIcon />,
                   color: "twitter",
-                },
-                {
-                  link: "https://www.instagram.com/creativetimofficial/",
-                  icon: <InstagramIcon />,
-                  color: "instagram",
                 },
               ]}
               action={{ route: "", tooltip: "Edit Profile" }}
@@ -104,7 +83,7 @@ function Overview() {
             </SuiBox>
             <SuiBox mb={1}>
               <SuiTypography variant="button" fontWeight="regular" textColor="text">
-                Architects design houses
+                Therapeutics Research Projects
               </SuiTypography>
             </SuiBox>
           </SuiBox>
@@ -113,9 +92,9 @@ function Overview() {
               <Grid item xs={12} md={6} xl={3}>
                 <DefaultProjectCard
                   image={homeDecor1}
-                  label="project #2"
-                  title="modern"
-                  description="As Uber works through a huge amount of internal management turmoil."
+                  label="project #22"
+                  title="Novel Autophagy Activators"
+                  description="Activation of autophagy is considered a promising therapeutic approach to combat ageing and age-related diseases."
                   action={{
                     type: "internal",
                     route: "/pages/profile/profile-overview",
@@ -133,9 +112,9 @@ function Overview() {
               <Grid item xs={12} md={6} xl={3}>
                 <DefaultProjectCard
                   image={homeDecor2}
-                  label="project #1"
-                  title="scandinavian"
-                  description="Music is something that every person has his or her own specific opinion about."
+                  label="project #16"
+                  title="Screening antibodies that modulate risk for Alzheimer's"
+                  description="The data generated will be used for new Alzheimer’s disease therapeutics."
                   action={{
                     type: "internal",
                     route: "/pages/profile/profile-overview",
@@ -154,8 +133,8 @@ function Overview() {
                 <DefaultProjectCard
                   image={homeDecor3}
                   label="project #3"
-                  title="minimalist"
-                  description="Different people have different taste, and various types of music."
+                  title="Harnessing safer cellular rejuvenation "
+                  description="Cell-reprogramming needs to be safer. Based on a fundamental machine learning application, we have the opportunity to tame cell reprogramming."
                   action={{
                     type: "internal",
                     route: "/pages/profile/profile-overview",
