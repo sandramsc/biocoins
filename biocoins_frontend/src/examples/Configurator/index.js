@@ -103,7 +103,7 @@ function Configurator() {
         px={3}
       >
         <SuiBox>
-          <SuiTypography variant="h5">Soft UI Configurator</SuiTypography>
+          <SuiTypography variant="h5">BioCoins Customizer</SuiTypography>
           <SuiTypography variant="body2" textColor="text">
             See our dashboard options.
           </SuiTypography>
@@ -175,7 +175,7 @@ function Configurator() {
           <SuiBox mb={2}>
             <SuiButton
               component={Link}
-              href="https://appseed.us/product/node-js-react-soft-dashboard"
+              href="https://github.com/agelesspartners/biocoins"
               target="_blank"
               rel="noreferrer"
               buttonColor="dark"
@@ -188,11 +188,11 @@ function Configurator() {
         </SuiBox>
         <SuiBox display="flex" justifyContent="center">
           <GitHubButton
-            href="https://github.com/app-generator/react-soft-ui-dashboard"
+            href="https://github.com/agelesspartners/biocoins"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star Soft UI Dashboard React on GitHub"
+            aria-label="BioCoins Project on GitHub"
           >
             Star
           </GitHubButton>
@@ -206,7 +206,7 @@ function Configurator() {
             <SuiBox mr={1.5}>
               <SuiButton
                 component={Link}
-                href="//twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20%20React%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard-react"
+                href="https://github.com/agelesspartners/biocoins"
                 target="_blank"
                 rel="noreferrer"
                 buttonColor="dark"
@@ -217,7 +217,7 @@ function Configurator() {
             </SuiBox>
             <SuiButton
               component={Link}
-              href="https://www.facebook.com/sharer/sharer.php?u=https://appseed.us/product/node-js-react-soft-dashboard"
+              href="https://github.com/agelesspartners/biocoins"
               target="_blank"
               rel="noreferrer"
               buttonColor="dark"
