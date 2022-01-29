@@ -106,7 +106,7 @@ function Configurator() {
 
       <SuiBox pt={1.25} pb={3} px={3}>
         <SuiBox>
-          <SuiTypography variant="h6">Sidenav Colors</SuiTypography>
+          <SuiTypography variant="h6">Side panel Colors</SuiTypography>
 
           <SuiBox my={0.5}>
             {sidenavColors.map((color) => (
@@ -122,7 +122,7 @@ function Configurator() {
         </SuiBox>
 
         <SuiBox mt={3}>
-          <SuiTypography variant="h6">Sidenav Type</SuiTypography>
+          <SuiTypography variant="h6">Side panel Type</SuiTypography>
           <SuiBox customClass={classes.configurator_sidenav_types}>
             <SuiButton
               buttonColor="info"
