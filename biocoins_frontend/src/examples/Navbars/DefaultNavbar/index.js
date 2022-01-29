@@ -128,7 +128,7 @@ function DefaultNavbar({ transparent, light, action }) {
       </SuiBox>
       {mobileView && (
         <DefaultNavbarMobile open={mobileNavbar} close={closeMobileNavbar}>
-          Hello
+          BioCoins.
         </DefaultNavbarMobile>
       )}
     </Container>

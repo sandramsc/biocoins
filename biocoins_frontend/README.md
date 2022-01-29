@@ -101,7 +101,7 @@ docker-compose up    # start the app
 | Jason Mercurio  | https://github.com/agelesspartners |
 | Triyaksh Mathur | https://github.com/                |
 | Ketan Bansal    | https://github.com/                |
-| Stephen Price   | https://github.com/                |
+| Stephen Price   | https://github.com/svprice         |
 | Aditiy Iyer     | https://github.com/                |
 | Chris Lovejoy   | https://github.com/chris-lovejoy   |
 
