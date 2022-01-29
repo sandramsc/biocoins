@@ -57,7 +57,7 @@ export default makeStyles(({ functions, borders, breakpoints }) => {
     baseLayout_content: {
       width: "100%",
       position: "absolute",
-      top: "50%",
+      top: "70%",
       left: "50%",
       transform: "translate(-50%, -50%) scale(0.6)",
 

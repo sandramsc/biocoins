@@ -18,7 +18,7 @@ function TodoCard() {
             </SuiTypography>
             <SuiBox textAlign="center" lineHeight={1}>
               <SuiTypography variant="h1" textColor="white" fontWeight="bold">
-                7
+                4
               </SuiTypography>
               <SuiTypography variant="button" textColor="white" fontWeight="regular">
                 items
@@ -26,10 +26,10 @@ function TodoCard() {
             </SuiBox>
           </SuiBox>
           <SuiTypography variant="body2" textColor="white" fontWeight="regular">
-            Shopping
+            *Research paper
           </SuiTypography>
           <SuiTypography variant="body2" textColor="white" fontWeight="regular">
-            Meeting
+            *BioCoins meeting
           </SuiTypography>
         </SuiBox>
         <Tooltip title="Show More" placement="top" className="cursor-pointer">

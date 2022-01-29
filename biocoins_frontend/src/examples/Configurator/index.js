@@ -90,7 +90,7 @@ function Configurator() {
         <SuiBox>
           <SuiTypography variant="h5">BioCoins Customizer</SuiTypography>
           <SuiTypography variant="body2" textColor="text">
-            See our dashboard options.
+            Customize your BioCoins Dashboard
           </SuiTypography>
         </SuiBox>
 
@@ -123,10 +123,6 @@ function Configurator() {
 
         <SuiBox mt={3}>
           <SuiTypography variant="h6">Sidenav Type</SuiTypography>
-          <SuiTypography variant="button" textColor="text" fontWeight="regular">
-            Choose between 2 different sidenav types.
-          </SuiTypography>
-
           <SuiBox customClass={classes.configurator_sidenav_types}>
             <SuiButton
               buttonColor="info"
@@ -155,22 +151,6 @@ function Configurator() {
         </SuiBox>
 
         <Divider />
-
-        <SuiBox mt={3} mb={2}>
-          <SuiBox mb={2}>
-            <SuiButton
-              component={Link}
-              href="https://github.com/agelesspartners/biocoins"
-              target="_blank"
-              rel="noreferrer"
-              buttonColor="dark"
-              variant="gradient"
-              fullWidth
-            >
-              free download
-            </SuiButton>
-          </SuiBox>
-        </SuiBox>
         <SuiBox display="flex" justifyContent="center">
           <GitHubButton
             href="https://github.com/agelesspartners/biocoins"

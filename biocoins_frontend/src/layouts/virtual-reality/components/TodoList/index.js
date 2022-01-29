@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-material-ui
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Card from "@mui/material/Card";
 import Divider from "@mui/material/Divider";
@@ -35,10 +20,10 @@ function TodoList() {
           </SuiBox>
           <SuiBox lineHeight={1}>
             <SuiTypography variant="h6" fontWeight="medium">
-              Synk up with Mark
+              Meeting with Sandra A. @ BioCoins LLC.
             </SuiTypography>
             <SuiTypography variant="button" fontWeight="regular" textColor="secondary">
-              Hangouts
+              My 1st BioCoin trial
             </SuiTypography>
           </SuiBox>
         </SuiBox>
@@ -51,10 +36,10 @@ function TodoList() {
           </SuiBox>
           <SuiBox lineHeight={1}>
             <SuiTypography variant="h6" fontWeight="medium">
-              Gym
+              Talk at Longevity Summit 2023
             </SuiTypography>
             <SuiTypography variant="button" fontWeight="regular" textColor="secondary">
-              World Class
+              Prepare presentation
             </SuiTypography>
           </SuiBox>
         </SuiBox>
@@ -67,10 +52,10 @@ function TodoList() {
           </SuiBox>
           <SuiBox lineHeight={1}>
             <SuiTypography variant="h6" fontWeight="medium">
-              Design Review
+              Submit: Trial of Rapamycin in Aging Dogs (TRIAD) paper
             </SuiTypography>
             <SuiTypography variant="button" fontWeight="regular" textColor="secondary">
-              Zoom
+              IEEE Life Sciences
             </SuiTypography>
           </SuiBox>
         </SuiBox>

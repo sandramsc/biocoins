@@ -54,7 +54,6 @@ function Footer({ company, links }) {
             &nbsp;{name}&nbsp;
           </SuiTypography>
         </Link>
-        BioCoins.
       </SuiBox>
       <SuiBox component="ul" customClass={classes.footer_list}>
         {renderLinks()}
@@ -65,7 +64,7 @@ function Footer({ company, links }) {
 
 // Setting default values for the props of Footer
 Footer.defaultProps = {
-  company: { href: "https://github.com/agelesspartners/biocoins", name: "BioCoins" },
+  company: { href: "https://github.com/agelesspartners/biocoins", name: "BioCoins LLC. 2022" },
   links: [
     { href: "https://github.com/agelesspartners/biocoins", name: "Product" },
     { href: "https://github.com/agelesspartners/biocoins", name: "Support" },
