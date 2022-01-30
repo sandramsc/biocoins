@@ -1,4 +1,4 @@
-// @mui material components
+// Designed by Sandra Ashipala for 30-01-2022 LongHack
 import Card from "@mui/material/Card";
 
 // Soft UI Dashboard React components

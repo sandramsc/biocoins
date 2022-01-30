@@ -1,4 +1,4 @@
-// prop-types is a library for typechecking of props
+// Designed by Sandra Ashipala for 30-01-2022 LongHack
 import PropTypes from "prop-types";
 
 // @mui material components

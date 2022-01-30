@@ -1,4 +1,4 @@
-// @mui material components
+// Designed by Sandra Ashipala for 30-01-2022 LongHack 
 import Grid from "@mui/material/Grid";
 
 // BioCoins Dashboard React components

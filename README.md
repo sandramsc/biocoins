@@ -105,6 +105,10 @@ docker-compose up    # start the app
 | Aditiy Iyer     | https://github.com/                |
 | Chris Lovejoy   | https://github.com/chris-lovejoy   |
 
+## References
+
+[Molecule](https://discover.molecule.to/discover)
+
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/agelesspartners/biocoins/blob/main/LICENSE)
