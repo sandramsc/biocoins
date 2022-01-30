@@ -1,7 +1,7 @@
 <!-- PROJECT TITLE -->
   <h1 align="center">BioCoins</h1>
  <h2 2 align="center">
-    Revolutionizing Longevity Therapeutics
+    Bringing Clinical Trials To Life
     <br />
     </h2>
 
