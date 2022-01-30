@@ -35,7 +35,10 @@ View the Demo on YouTube: _LINK_
 
 ## Screenshots
 
-[INSERT SCREENSHOT]
+![dash3](https://user-images.githubusercontent.com/19821445/151686777-5359e879-1b82-4848-ab8d-a86963d7139e.JPG)
+![dash4](https://user-images.githubusercontent.com/19821445/151686779-7e6c401a-b55f-4f35-a70c-95455925fc89.JPG)
+![dash5](https://user-images.githubusercontent.com/19821445/151686782-4c2042ce-1309-4df8-8f03-3f9d126b42d1.JPG)
+![dash7](https://user-images.githubusercontent.com/19821445/151686784-228b9efe-2fb3-4954-8ad0-5642d4385eb2.JPG)
 
 ## Technology Stack
 
@@ -62,36 +65,11 @@ View the Demo on YouTube: _LINK_
 
 4. Authentication: JWT Login/Register/Logout
 
-## Running
-
-To test the application run the following commands on your terminal:
-
-**Running the application locally:**
+## Features
 
 ```
-git clone https://github.com/agelesspartners/biocoins.git
+see biocoins_backend & biocoins_frontend
 ```
-
-- Install dependencies via NPM or yarn: _npm i_ OR _yarn_
-
-- Website: To start it, run _npm start_ OR _yarn start_
-
-**Quick start docker:**
-
-```
-git clone https://github.com/agelesspartners/biocoins.git
-cd biocoins
-```
-
-**Start the app in docker:**
-
-```
-docker-compose pull  # download dependencies
-docker-compose build # local set up
-docker-compose up    # start the app
-```
-
-- Website: User Interface (UI) start on port 3000 & expecting an API server on port 5000
 
 ## Collaborators
 
