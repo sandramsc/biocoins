@@ -7,7 +7,7 @@
 
 ## Application Description
 
-a web based tool that enables users to ..................xyz
+a web based platform for researchers, patients, and investors to collectively fund clinical trials.
 
 ## Table of Contents
 
@@ -42,28 +42,24 @@ View the Demo on [YouTube](https://youtu.be/cJuWg-Cntas)
 
 ## Technology Stack
 
-| Technology       | Description               |
-| ---------------- | ------------------------- |
-| Material-UI      |                           |
-| TypeScript       | Object-oriented language  |
-| React.js         | JavaScript library        |
-| Docker           | Containerization platform |
-| Redux            |                           |
-| Redux-persist    |                           |
-| SQLite           |                           |
-| TypeORM          |                           |
-| Joy (validation) |                           |
-| Passport library |                           |
+| Technology       | Description                                   |
+| ---------------- | --------------------------------------------- |
+| Material-UI      | React UI library                              |
+| TypeScript       | Object-oriented language                      |
+| React.js         | JavaScript library                            |
+| Docker           | Containerization platform                     |
+| Redux            | JavaScript library                            |
+| SQLite           | Relational Database Management System (RDBMS) |
+| TypeORM          | Object Relational Mapping (ORM) framework     |
+| Joy (validation) | Data Validator for JavaScript                 |
 
 ## Features
 
-1. A
+1. User athentication (sign in/ sign out / register)
 
-2. B
+2. Investors are able to collectively fund clinical trials
 
-3. C
-
-4. Authentication: JWT Login/Register/Logout
+3. The platform allows researchers to tokenize incentives (early treatment access, IP royalties ,data access, and more) for their planned clinical trial,
 
 ## How to use the app
 
