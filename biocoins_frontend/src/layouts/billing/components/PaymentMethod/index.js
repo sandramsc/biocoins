@@ -27,7 +27,7 @@ function PaymentMethod() {
         </SuiTypography>
         <SuiButton variant="gradient" buttonColor="dark">
           <Icon className="font-bold">add</Icon>
-          &nbsp;add BioCoin tokens
+          &nbsp;purchase token
         </SuiButton>
       </SuiBox>
       <SuiBox p={2}>
