@@ -17,6 +17,9 @@ application backend
 - [Table of Contents](#table-of-contents)
 - [Requirements](#requirements)
 - [Running](#running)
+- [SQLite Path](#sqlight-path)
+- [Data Migration](#data-migration)
+- [API](#api)
 
 </details>
 
@@ -27,7 +30,7 @@ application backend
 
 <br />
 
-## How to use the code
+## How to run backend server
 
 **Step #1** - Clone the project
 
