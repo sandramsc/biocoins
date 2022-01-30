@@ -29,8 +29,6 @@ A web based platform for researchers, patients, and investors to collectively fu
 
 ## Project Demo
 
-A Short Video with overview of main app Features:
-
 View the Demo on [YouTube](https://youtu.be/cJuWg-Cntas)
 
 ## Screenshots
