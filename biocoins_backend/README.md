@@ -1,3 +1,25 @@
+<!-- PROJECT TITLE -->
+  <h1 align="center">BioCoins</h1>
+ <h2 2 align="center">
+    Revolutionizing Longevity Therapeutics
+    <br />
+    </h2>
+
+## Application Description
+
+application backend
+
+## Table of Contents
+
+<details>
+<summary>BioCoins</summary>
+
+- [Table of Contents](#table-of-contents)
+- [Requirements](#requirements)
+- [Running](#running)
+
+</details>
+
 ## Requirements
 
 - [Node.js](https://nodejs.org/) >= 12.x
@@ -24,7 +46,9 @@ $ yarn
 
 **Step #3** - Run the SQLite migration via TypeORM
 
-```
+```bash
+$ npm run typeorm migration:run
+// OR
 $ yarn typeorm migration:run
 ```
 
@@ -64,15 +88,13 @@ The SQLite Path is set in `.env`, as `SQLITE_PATH`
 
 > run migration:
 
-```bash
+```
 $ yarn typeorm migration:run
 ```
 
 <br />
 
 ## API
-
-For a fast set up, use this POSTMAN file: [api_sample](https://github.com/app-generator/api-server-nodejs-pro/blob/master/media/api.postman_collection.json)
 
 > **Register** - `api/users/register`
 

@@ -7,7 +7,7 @@
 
 ## Application Description
 
-a web based tool that enables users to ..................xyz
+application frontend
 
 ## Table of Contents
 
@@ -15,7 +15,6 @@ a web based tool that enables users to ..................xyz
 <summary>BioCoins</summary>
 
 - [Table of Contents](#table-of-contents)
-- [Features](#features)
 - [Running](#running)
 
 </details>
