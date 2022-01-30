@@ -5,13 +5,6 @@
     <br />
     </h2>
 
-Biocoins is a platform for researchers, patients, and investors
-to collectively fund clinical trials. By allowing researchers to
-tokenize incentives (early treatment access, IP royalties, data access,
-and more) for their planned clinical trial, we help researchers fund
-clinical trials faster than ever before.
-
-
 ## Application Description
 
 A web based platform for researchers, patients, and investors to collectively fund clinical trials.
