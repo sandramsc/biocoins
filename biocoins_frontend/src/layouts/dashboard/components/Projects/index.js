@@ -53,12 +53,12 @@ function Projects() {
       <SuiBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
         <SuiBox>
           <SuiTypography variant="h6" gutterBottom>
-            Projects
+            Clinical Trials
           </SuiTypography>
           <SuiBox display="flex" alignItems="center" lineHeight={0}>
             <Icon className="font-bold text-info">done</Icon>
             <SuiTypography variant="button" fontWeight="regular" textColor="text">
-              &nbsp;<strong>30 reviewed</strong> this month
+              &nbsp;<strong>30 added</strong> this month
             </SuiTypography>
           </SuiBox>
         </SuiBox>
