@@ -2,7 +2,6 @@
 import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
-import Tooltip from "@mui/material/Tooltip";
 
 // Soft UI Dashboard React components
 import SuiBox from "components/SuiBox";
@@ -47,13 +46,6 @@ function PaymentMethod() {
               <SuiTypography variant="h6" fontWeight="medium">
                 Early Access
               </SuiTypography>
-              <SuiBox ml="auto" lineHeight={0}>
-                <Tooltip title="Edit Card" placement="top">
-                  <Icon className="cursor-pointer" fontSize="small">
-                    edit
-                  </Icon>
-                </Tooltip>
-              </SuiBox>
             </SuiBox>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -69,13 +61,6 @@ function PaymentMethod() {
               <SuiTypography variant="h6" fontWeight="medium">
                 IP Royalty
               </SuiTypography>
-              <SuiBox ml="auto" lineHeight={0}>
-                <Tooltip title="Edit Card" placement="top">
-                  <Icon className="cursor-pointer" fontSize="small">
-                    edit
-                  </Icon>
-                </Tooltip>
-              </SuiBox>
             </SuiBox>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -91,13 +76,6 @@ function PaymentMethod() {
               <SuiTypography variant="h6" fontWeight="medium">
                 Trial Governance
               </SuiTypography>
-              <SuiBox ml="auto" lineHeight={0}>
-                <Tooltip title="Edit Card" placement="top">
-                  <Icon className="cursor-pointer" fontSize="small">
-                    edit
-                  </Icon>
-                </Tooltip>
-              </SuiBox>
             </SuiBox>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -113,13 +91,6 @@ function PaymentMethod() {
               <SuiTypography variant="h6" fontWeight="medium">
                 Data Access
               </SuiTypography>
-              <SuiBox ml="auto" lineHeight={0}>
-                <Tooltip title="Edit Card" placement="top">
-                  <Icon className="cursor-pointer" fontSize="small">
-                    edit
-                  </Icon>
-                </Tooltip>
-              </SuiBox>
             </SuiBox>
           </Grid>
         </Grid>
