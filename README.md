@@ -20,7 +20,7 @@ a web based tool that enables users to ..................xyz
 - [Screenshots](#screenshots)
 - [Technology Stack](#technology-stack)
 - [Features](#features)
-- [Running](#running)
+- [How to use the app](#how-to-use-the-app)
 - [Collaborators](#collaborators)
 - [References](#references)
 - [License](#license)
@@ -29,9 +29,9 @@ a web based tool that enables users to ..................xyz
 
 ## Project Demo
 
-A Short Video Detailing the Features Implemented in this Application
+A Short Video with overview of main app Features:
 
-View the Demo on YouTube: _LINK_
+View the Demo on [YouTube](https://youtu.be/cJuWg-Cntas)
 
 ## Screenshots
 
@@ -65,7 +65,7 @@ View the Demo on YouTube: _LINK_
 
 4. Authentication: JWT Login/Register/Logout
 
-## Features
+## How to use the app
 
 ```
 see biocoins_backend & biocoins_frontend
