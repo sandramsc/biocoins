@@ -13,7 +13,7 @@ import SuiTypography from "components/SuiTypography";
 import styles from "examples/Cards/MasterCard/styles";
 
 // Images
-import masterCardLogo from "assets/images/logos/mastercard.png";
+import ipRoyaltyLogo from "assets/images/logos/iproyalty.png";
 
 function MasterCard({ color, number, holder, expires }) {
   const classes = styles({ color });
@@ -71,7 +71,7 @@ function MasterCard({ color, number, holder, expires }) {
             </SuiBox>
           </SuiBox>
           <SuiBox display="flex" justifyContent="flex-end" width="20%">
-            <SuiBox component="img" src={masterCardLogo} alt="master card" width="60%" mt={1} />
+            <SuiBox component="img" src={ipRoyaltyLogo} alt="master card" width="60%" mt={1} />
           </SuiBox>
         </SuiBox>
       </SuiBox>

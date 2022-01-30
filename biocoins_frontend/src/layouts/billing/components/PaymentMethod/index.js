@@ -13,8 +13,10 @@ import SuiButton from "components/SuiButton";
 import borders from "assets/theme/base/borders";
 
 // Images
-import masterCardLogo from "assets/images/logos/mastercard.png";
-import visaLogo from "assets/images/logos/visa.png";
+import earlyAccessLogo from "assets/images/logos/earlyaccess.png";
+import ipRoyaltyLogo from "assets/images/logos/iproyalty.png";
+import dataAccesstLogo from "assets/images/logos/trialgovernance.png";
+import dataAccessLogo from "assets/images/logos/dataaccess.png";
 
 function PaymentMethod() {
   const { borderWidth, borderColor } = borders;
@@ -41,7 +43,7 @@ function PaymentMethod() {
               alignItems="center"
               p={3}
             >
-              <SuiBox component="img" src={masterCardLogo} alt="master card" width="10%" mr={2} />
+              <SuiBox component="img" src={earlyAccessLogo} alt="master card" width="10%" mr={2} />
               <SuiTypography variant="h6" fontWeight="medium">
                 Early Access
               </SuiTypography>
@@ -63,7 +65,7 @@ function PaymentMethod() {
               alignItems="center"
               p={3}
             >
-              <SuiBox component="img" src={masterCardLogo} alt="master card" width="10%" mr={2} />
+              <SuiBox component="img" src={ipRoyaltyLogo} alt="master card" width="10%" mr={2} />
               <SuiTypography variant="h6" fontWeight="medium">
                 IP Royalty
               </SuiTypography>
@@ -85,7 +87,7 @@ function PaymentMethod() {
               alignItems="center"
               p={3}
             >
-              <SuiBox component="img" src={masterCardLogo} alt="master card" width="10%" mr={2} />
+              <SuiBox component="img" src={dataAccesstLogo} alt="master card" width="10%" mr={2} />
               <SuiTypography variant="h6" fontWeight="medium">
                 Trial Governance
               </SuiTypography>
@@ -107,7 +109,7 @@ function PaymentMethod() {
               alignItems="center"
               p={3}
             >
-              <SuiBox component="img" src={visaLogo} alt="master card" width="10%" mr={2} />
+              <SuiBox component="img" src={dataAccessLogo} alt="master card" width="10%" mr={2} />
               <SuiTypography variant="h6" fontWeight="medium">
                 Data Access
               </SuiTypography>
