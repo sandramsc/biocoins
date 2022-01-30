@@ -5,18 +5,14 @@ import Tooltip from "@mui/material/Tooltip";
 import SuiBox from "components/SuiBox";
 import SuiTypography from "components/SuiTypography";
 import SuiAvatar from "components/SuiAvatar";
-import SuiProgress from "components/SuiProgress";
 
 // Custom styles for the Projects
 import styles from "layouts/dashboard/components/Projects/styles";
 
 // Images
-import logoXD from "assets/images/small-logos/logo-xd.png";
-import logoAtlassian from "assets/images/small-logos/logo-atlassian.png";
-import logoSlack from "assets/images/small-logos/logo-slack.png";
-import logoSpotify from "assets/images/small-logos/logo-spotify.jpg";
-import logoJira from "assets/images/small-logos/logo-jira.jpg";
-import logoInvesion from "assets/images/small-logos/logo-invision.jpg";
+import logoTrial1 from "assets/images/small-logos/preclinicalstage.png";
+import logoTrial2 from "assets/images/small-logos/earlystage.png";
+import logoTrial3 from "assets/images/small-logos/clinicalstage.png";
 import team1 from "assets/images/team-1.jpg";
 import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
@@ -42,7 +38,7 @@ export default function data() {
 
     rows: [
       {
-        researcher: [logoXD, "Technical University Berlin"],
+        researcher: [logoTrial1, "Non-toxic Malaria Drug Evaluation Platform"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -60,12 +56,12 @@ export default function data() {
         ),
         clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
-            <SuiProgress value={60} color="info" gradient />
+            PRE-CLINICAL
           </SuiBox>
         ),
       },
       {
-        researcher: [logoAtlassian, "Harvard T.H. Chan School of Public Health"],
+        researcher: [logoTrial2, "IntraClear Biologics B2HF"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -81,12 +77,12 @@ export default function data() {
         ),
         clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
-            <SuiProgress value={10} color="info" gradient />
+            EARLY STAGE
           </SuiBox>
         ),
       },
       {
-        researcher: [logoSlack, "Ageless Partners"],
+        researcher: [logoTrial3, "Heparanase Inhibitors for Cancer Therapeutics"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -102,12 +98,12 @@ export default function data() {
         ),
         clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
-            <SuiProgress value={100} color="success" gradient />
+            CLINICAL TRIALS
           </SuiBox>
         ),
       },
       {
-        researcher: [logoSpotify, "MIT School of Bioengineering Sciences"],
+        researcher: [logoTrial2, "RNF167 as mTOR Targets"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -125,12 +121,12 @@ export default function data() {
         ),
         clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
-            <SuiProgress value={100} color="success" gradient />
+            EARLY STAGE
           </SuiBox>
         ),
       },
       {
-        researcher: [logoJira, "Tsinghua University"],
+        researcher: [logoTrial1, "Brain Cell Replacement Therapy "],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([[team4, "Jessica Doe"]])}
@@ -143,12 +139,12 @@ export default function data() {
         ),
         clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
-            <SuiProgress value={25} color="info" gradient />
+            PRE-CLINICAL
           </SuiBox>
         ),
       },
       {
-        researcher: [logoInvesion, "Carnegie Mellon University School of Computer Science"],
+        researcher: [logoTrial1, "Treatment of Neurological Conditions with Probiotics"],
         members: (
           <SuiBox display="flex" py={1}>
             {avatars([
@@ -164,7 +160,7 @@ export default function data() {
         ),
         clinical_stage: (
           <SuiBox width="8rem" textAlign="left">
-            <SuiProgress value={40} color="info" gradient />
+            PRE-CLINICAL
           </SuiBox>
         ),
       },

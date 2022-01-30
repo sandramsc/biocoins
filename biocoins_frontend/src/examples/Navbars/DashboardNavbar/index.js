@@ -95,7 +95,7 @@ function DashboardNavbar({ absolute, light, isMini }) {
       />
       <NotificationItem
         image={<img src={logoSpotify} alt="person" />}
-        title={["New cpnference", "Longevity Summit 2023"]}
+        title={["New conference", "Longevity Summit 2023"]}
         date="1 day"
         onClick={handleCloseMenu}
       />
