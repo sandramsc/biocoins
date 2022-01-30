@@ -99,6 +99,11 @@ $ yarn typeorm migration:run
 
 ## API
 
+```
+use: ../media/api.postman_collection.json for quick setup with Postman
+
+```
+
 > **Register** - `api/users/register`
 
 ```
