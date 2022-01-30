@@ -15,7 +15,7 @@ function Transactions() {
     <Card className="h-100">
       <SuiBox display="flex" justifyContent="space-between" alignItems="center" pt={3} px={2}>
         <SuiTypography variant="h6" fontWeight="medium" textTransform="capitalize">
-          Your Personal Transaction Ledger
+          Your BioCoins Benefits Ledger
         </SuiTypography>
         <SuiBox display="flex" alignItems="flex-start">
           <SuiBox color="text" mr={0.5} lineHeight={0}>
@@ -48,16 +48,16 @@ function Transactions() {
           customClass="no-list-style"
         >
           <Transaction
-            color="error"
-            icon="arrow_downward"
-            name="Bitcoin Cash (BCH)"
+            color="success"
+            icon="arrow_upward"
+            name="Minor Illness Coverage at Cambrige Hospital"
             description="27 March 2020, at 12:30 PM"
-            value="- $ 2,500"
+            value="+ $ 300"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="Ethereum (ETH)"
+            name="Full Health Insurance Coverage for entire Family"
             description="27 March 2020, at 04:30 AM"
             value="+ $ 2,000"
           />
@@ -83,28 +83,14 @@ function Transactions() {
           <Transaction
             color="success"
             icon="arrow_upward"
-            name="Monero (XMR)"
-            description="26 March 2020, at 13:45 PM"
-            value="+ $ 750"
-          />
-          <Transaction
-            color="success"
-            icon="arrow_upward"
-            name="EOS (EOS)"
+            name="Dental Care Cover for The Entire Year 2022"
             description="26 March 2020, at 12:30 PM"
             value="+ $ 1,000"
           />
           <Transaction
-            color="success"
-            icon="arrow_upward"
-            name="XRP (XRP)"
-            description="26 March 2020, at 08:30 AM"
-            value="+ $ 2,500"
-          />
-          <Transaction
             color="dark"
             icon="priority_high"
-            name="TRON (TRX)"
+            name="Premium Support at Howerrt Hospital"
             description="26 March 2020, at 05:00 AM"
             value="Pending"
           />

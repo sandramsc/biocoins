@@ -13,28 +13,28 @@ function BillingInformation() {
     <Card id="delete-account">
       <SuiBox pt={3} px={2}>
         <SuiTypography variant="h6" fontWeight="medium">
-          Wallet Information
+          Your Clinical Trial Wallet
         </SuiTypography>
       </SuiBox>
       <SuiBox pt={1} pb={2} px={2}>
         <SuiBox component="ul" display="flex" flexDirection="column" p={0} m={0}>
           <Bill
-            name="oliver liam"
-            company="viking burrito"
-            email="oliver@burrito.com"
-            vat="FRB1235476"
+            name="Cohesive Molecule Enhancement for Transcription Factors"
+            company="Oswald Theodore Avery Jr."
+            email="oswald@longevity.com"
+            vat="Receive Premium Support at Howerrt Hospital."
           />
           <Bill
-            name="lucas harper"
-            company="stone tech zone"
-            email="lucas@stone-tech.com"
-            vat="FRB1235476"
+            name="NEURO-iNN patented glutathione derivative and  polyphenols"
+            company="Sir James Whyte Black"
+            email="oswald@standrews.uk"
+            vat="Receive 46% discount on annual Health Insuarence for any family member."
           />
           <Bill
-            name="ethan james"
-            company="fiber notion"
-            email="ethan@fiber.com"
-            vat="FRB1235476"
+            name="Anti-Ageing Drug Discovery and Repurposing"
+            company="Elizabeth Blackwell"
+            email="elizabeth@nortoncollege.us"
+            vat="Receive full reimbursement on any amount paid on the occurrence of the specified illness."
             noGutter
           />
         </SuiBox>

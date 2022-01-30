@@ -47,7 +47,7 @@ function Bill({ name, company, email, vat, noGutter }) {
         </SuiBox>
         <SuiBox mb={1} lineHeight={0}>
           <SuiTypography variant="caption" textColor="text">
-            Company Name:&nbsp;&nbsp;&nbsp;
+            Researcher / Organization:&nbsp;&nbsp;&nbsp;
             <SuiTypography variant="caption" fontWeight="medium" textTransform="capitalize">
               {company}
             </SuiTypography>
@@ -62,7 +62,7 @@ function Bill({ name, company, email, vat, noGutter }) {
           </SuiTypography>
         </SuiBox>
         <SuiTypography variant="caption" textColor="text">
-          VAT Number:&nbsp;&nbsp;&nbsp;
+          BioCoins Service Gift:&nbsp;&nbsp;&nbsp;
           <SuiTypography variant="caption" fontWeight="medium">
             {vat}
           </SuiTypography>

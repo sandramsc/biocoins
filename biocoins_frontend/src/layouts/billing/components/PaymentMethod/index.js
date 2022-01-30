@@ -23,11 +23,11 @@ function PaymentMethod() {
     <Card id="delete-account">
       <SuiBox pt={2} px={2} display="flex" justifyContent="space-between" alignItems="center">
         <SuiTypography variant="h6" fontWeight="medium">
-          Payment Method
+          BioCoin Balance
         </SuiTypography>
         <SuiButton variant="gradient" buttonColor="dark">
           <Icon className="font-bold">add</Icon>
-          &nbsp;add new cryptocurreny
+          &nbsp;add BioCoin tokens
         </SuiButton>
       </SuiBox>
       <SuiBox p={2}>
@@ -42,16 +42,6 @@ function PaymentMethod() {
               p={3}
             >
               <SuiBox component="img" src={masterCardLogo} alt="master card" width="10%" mr={2} />
-              <SuiTypography variant="h6" fontWeight="medium">
-                ****&nbsp;&nbsp;****&nbsp;&nbsp;****&nbsp;&nbsp;7852
-              </SuiTypography>
-              <SuiBox ml="auto" lineHeight={0}>
-                <Tooltip title="Edit Card" placement="top">
-                  <Icon className="cursor-pointer" fontSize="small">
-                    edit
-                  </Icon>
-                </Tooltip>
-              </SuiBox>
             </SuiBox>
           </Grid>
           <Grid item xs={12} md={6}>

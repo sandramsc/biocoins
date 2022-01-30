@@ -33,7 +33,10 @@ function BuildByDevelopers() {
               </SuiTypography>
               <SuiBox mb={6}>
                 <SuiTypography variant="body2" textColor="text">
-                  Set up your trial on BioCoins as a Patient, Investor or Scientist.
+                  Biocoins is a platform for researchers, patients, and investors to collectively
+                  fund clinical trials. By allowing researchers to tokenize incentives (early
+                  treatment access, IP royalties ,data access, and more) for their planned clinical
+                  trial, we help researchers fund clinical trials faster than ever before.
                 </SuiTypography>
               </SuiBox>
               <SuiTypography

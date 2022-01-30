@@ -2,7 +2,6 @@
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
-import VirtualReality from "layouts/virtual-reality";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
@@ -15,7 +14,6 @@ import Document from "examples/Icons/Document";
 import SpaceShip from "examples/Icons/SpaceShip";
 import CustomerSupport from "examples/Icons/CustomerSupport";
 import CreditCard from "examples/Icons/CreditCard";
-import Cube from "examples/Icons/Cube";
 
 const routes = [
   {
@@ -40,21 +38,11 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "BioCoin Wallet",
+    name: "Wallet",
     key: "billing",
     route: "/billing",
     icon: <CreditCard size="12px" />,
     component: Billing,
-    noCollapse: true,
-    protected: true,
-  },
-  {
-    type: "collapse",
-    name: "Virtual Reality",
-    key: "virtual-reality",
-    route: "/virtual-reality",
-    icon: <Cube size="12px" />,
-    component: VirtualReality,
     noCollapse: true,
     protected: true,
   },

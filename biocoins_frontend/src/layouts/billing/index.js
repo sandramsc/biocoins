@@ -42,7 +42,7 @@ function Billing() {
                   <DefaultInfoCard
                     icon="paypal"
                     title="paypal"
-                    description="BioCoin Project investment"
+                    description="BioCoin Clinical Trial investment"
                     value="$10 000.00"
                   />
                 </Grid>
