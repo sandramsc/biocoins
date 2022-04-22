@@ -69,7 +69,7 @@ see biocoins_backend & biocoins_frontend
 
 | Name            | Link ↘️                            |
 | --------------- | ---------------------------------- |
-| Sandra Ashipala | https://github.com/sajustsmile     |
+| Sandra Ashipala | https://github.com/sandramsc     |
 | Jason Mercurio  | https://github.com/agelesspartners |
 | Stephen Price   | https://github.com/svprice         |
 | Chris Lovejoy   | https://github.com/chris-lovejoy   |
